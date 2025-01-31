@@ -44,15 +44,18 @@
     </script>
   </head>
   <body class="font-sora">
+    <!-- Header Section -->
+    <header class="">
   <!-- NAVbar start -->
-  <div class="w-full h-[100px] navbar bg-cat-primary fixed top-0 left-0 border-b-2 border-black lg:border-b-0">
+  <nav class="">
+  <div class=" w-full navbar bg-cat-primary  top-0 left-0  border-b-2 border-black lg:border-b-0">
   <div class="navbar-start lg:pl-[140px]">
     <img src="c1-assets/logo-header.png">
     <a class="hidden pl-1 lg:text-xl lg:whitespace-nowrap lg:inline lg:pl-2">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
   </div>
   <div class="navbar-center">
-    <div class="dropdown absolute right-0  lg:hidden">
-      <div tabindex="0" role="button" class="btn btn-ghost btn-circle lg:hidden">
+    <div class="dropdown absolute right-0 lg:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle dropdown-toggle lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"
@@ -68,19 +71,19 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] relative left-0 mt-3 w-52 p-2 shadow">
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0 left-auto">
         <li><a>Find a pet</a></li>
         <li><a>Breeds</a></li>
         <li><a>Contact Us</a></li>
       </ul>
     </div>
-    
+    <div>
       <ul class="hidden sm:hidden lg:flex lg:space-x-8">
         <li><a>Find a pet</a></li>
         <li><a>Breeds</a></li>
         <li><a>Contact Us</a></li>
       </ul>
-  
+      </div>
   </div>
   <div class="navbar-end hidden md:hidden sm:hidden  lg:flex lg:pr-[140px] lg:space-x-5">
     <div>
@@ -120,5 +123,38 @@
     <button class=" btn btn-outline  bg-[#FFDC26] h-[44px] w-[145px]">Register</button>
   </div>
 </div>
+  </div>
+</nav>
   <!-- Navbar end -->
+ 
+  <!-- Hero section Start -->
+  <section class="mt-0 lg:pl-[]">
+  <div class="hero min-h-screen ">
+  <div class="hero-content flex-col lg:flex-row">
+    <div class="z-[1] lg:z-[1] lg:relative lg:-top-24 p">
+      <h1 class="font-adlam-display text-4xl font-bold lg:font-adlam-display lg:font-bold lg:text-6xl">
+        Pamper Your Pet,<br> 
+        Because They Deserve<br>
+        the Bes</h1>
+      <p class="font-normal text-sm py-6">
+        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+      </p>
+      <button class="btn bg-[#FFDC26]">Find a pet</button>
+    </div>
+    <div class="lg:relative lg:right-24 lg:-bottom-24">
+    <img class="relative -top-24 -left-9"
+      src="c1-assets/cat-big.png">
+  </div>
+  </div>
+  </div>
+  </section>
+  </header>
+  <!-- Header Section End -->
+  <main>
+  </main>
+  <footer>
+  </footer>
+
+
+
   </body>
