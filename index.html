@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biker Zone</title>
+    <title>my-third-assignment</title>
     <!-- Google Font CDN -->
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,13 +45,13 @@
   </head>
   <body class="font-sora">
     <!-- Header Section -->
-    <header class="">
+   <header class="relative overflow-hidden">
   <!-- NAVbar start -->
   <nav class="">
   <div class=" w-full navbar bg-cat-primary  top-0 left-0  border-b-2 border-black lg:border-b-0">
   <div class="navbar-start lg:pl-[140px]">
     <img src="c1-assets/logo-header.png">
-    <a class="hidden pl-1 lg:text-xl lg:whitespace-nowrap lg:inline lg:pl-2">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+    <a class="hidden font-bold pl-1 lg:text-xl lg:whitespace-nowrap lg:inline lg:pl-2">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
   </div>
   <div class="navbar-center">
     <div class="dropdown absolute right-0 lg:hidden">
@@ -86,52 +86,28 @@
       </div>
   </div>
   <div class="navbar-end hidden md:hidden sm:hidden  lg:flex lg:pr-[140px] lg:space-x-5">
-    <div>
-    <button>
-      <div class="indicator">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-        </svg>
-        <span class="badge badge-xs badge-primary indicator-item"></span>
-      </div>
-    </button>
-    <button>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-      </svg>
-    </button>
+      <button>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+          </svg>
+        </button>
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
     <button class="btn btn-outline  border-[#FFDC26] h-[44px] w-[117px]">Login</button>
     <button class=" btn btn-outline  bg-[#FFDC26] h-[44px] w-[145px]">Register</button>
   </div>
 </div>
   </div>
 </nav>
-  <!-- Navbar end -->
-  <!-- Hero section Start -->
-  <section class="mt-0 ">
-  <div class="hero min-h-screen ">
+<section class="relative overflow-hidden">
+  <div class="hero min-h-screen flex justify-between items-center lg:pl-[144px]">
   <div class="hero-content flex-col lg:flex-row">
     <div class="z-[1] lg:z-[1] lg:relative lg:-top-24 p">
-      <h1 class="font-adlam-display text-4xl font-bold lg:font-adlam-display lg:font-bold lg:text-6xl">
-        Pamper Your Pet,<br> 
+      <h1 class="font-adlam-display text-4xl font-bold lg:font-adlam-display lg:font-bold lg:text-64xl">
+        Pamper Your Pet,<br>
         Because They Deserve<br>
         the Bes</h1>
       <p class="font-normal text-sm py-6">
@@ -140,13 +116,14 @@
       <button class="btn bg-[#FFDC26]">Find a pet</button>
     </div>
     <div class="lg:relative lg:right-24 lg:-bottom-24">
+      <div class="animate-bounce">
     <img class="relative -top-24 -left-9"
       src="c1-assets/cat-big.png">
   </div>
-  </div>
+    </div>	
   </div>
   </section>
-  </header>
+  </header> 
   <!-- Header Section End -->
   <main>
   </main>
